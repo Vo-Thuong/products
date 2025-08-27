@@ -1,0 +1,128 @@
+.container {
+    background: #fff;
+    border: 2px solid #003366;
+    padding: 30px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 260px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    line-height: 5px;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.info {
+    padding: 15px;
+}
+
+.rating {
+    color: orange;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.rating span {
+    color: #999;
+    margin-left: 8px;
+}
+
+.price {
+    margin: 10px 0;
+    font-weight: bold;
+    color: #d9534f;
+}
+.price span {
+    font-size: 16px;
+    color: black;
+    margin-left: 10px;
+}
+
+.status {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #009966;
+    margin: 8px 0;
+}
+
+.actions {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.btn {
+    display: block;
+    padding: 8px;
+    text-align: center;
+    border-radius: 4px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn {
+    background: #28a745;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn:hover {
+    background: #218838;
+}
+
+.btn-order {
+    background: #ff6600;
+    color: #fff;
+}
+.btn-order:hover {
+    background: #e65c00;
+}
+
+.btn-delete {
+    background: #d9534f;
+    color: #fff;
+}
+.btn-delete:hover {
+    background: #c9302c;
+}
+
+.add-btn {
+    display: inline-block;
+    background: #009966;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.add-btn:hover {
+    background: #007744;
+}
